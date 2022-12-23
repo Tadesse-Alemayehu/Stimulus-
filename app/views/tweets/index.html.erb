@@ -1,0 +1,20 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Tweets</h1>
+
+<div id="tweets">
+  <% @tweets.each do |tweet| %>
+    <%= render tweet %>
+    <p>
+      <%= link_to "Show this tweet", tweet %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New tweet", new_tweet_path %>
+
+    <div data-controller="hello">
+      <input data-hello-target="input-field" type="text">
+      <button type="button" data-action="hello#toggleInput"> toggle </button>
+    </div>
+  </body>
