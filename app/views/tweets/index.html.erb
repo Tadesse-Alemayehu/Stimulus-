@@ -3,13 +3,12 @@
 <h1>Tweets</h1>
 
 <div id="tweets">
-  <% @tweets.each do |tweet| %>
-    <%= render tweet %>
-    <p>
-      <%= link_to "Show this tweet", tweet %>
+  <%# <% @tweets.each do |tweet| %>
+  <%=    render TweetComponent.with_collection(@tweets.all) %>
+      <%# <%= link_to "Show this tweet", tweet %> %>
     </p>
-  <% end %>
-</div>
+   <%# <% end %> %>
+< %>/div>
 
 <%= link_to "New tweet", new_tweet_path %>
 
