@@ -5,3 +5,10 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+
+tweets = Tweet.create!([
+  { title: "First Tweet", body: "This is my first tweet", likes: 56 },
+  { title: "First Tweet", body: "This is my first tweet", likes: 45 },
+  { title: "First Tweet", body: "This is my first tweet", likes: 53 },
+  { title: "First Tweet", body: "This is my first tweet", likes: 4 },
+])

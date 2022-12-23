@@ -4,6 +4,7 @@ export default class extends Controller {
   static targets = ["input-field"];
   connect() {
     // this.element.textContent = "Hello World!";
+    console.log("Hello, Stimulus!", this.element);
   }
 
   toggleInput() {
