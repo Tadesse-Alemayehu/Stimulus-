@@ -70,3 +70,7 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+gem "view_component", "~> 2.80"
+
+gem "tailwindcss-rails", "~> 2.0"
