@@ -86,3 +86,4 @@ production:
   database: portfolio_28me
   username: tadesse_alemayehu
   password: <%= ENV["STIMULUS_DATABASE_PASSWORD"] %>
+#  PGPASSWORD=AIMn77XZDgoF6XMzm6Rp05Yc9Eng1s59 psql -h dpg-ce0pnrda4996nds13hh0-a.frankfurt-postgres.render.com -U tadesse_alemayehu -f Stimulus_development_20160527.sql portfolio_28me
